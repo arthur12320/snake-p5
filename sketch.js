@@ -242,6 +242,12 @@ function checkKey() {
             fightNumb = prompt("fight untill how much points", "500");
         }
     }
+
+    if (keyIsDown(75)) { //k
+        if (s2) {
+            s2 = null;
+        }
+    }
 }
 
 function specials() {
